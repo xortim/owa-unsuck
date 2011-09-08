@@ -114,7 +114,7 @@ window.getAllRowsSnapshot = function() {
   return allIcons;
 }
 
-function timeoutRefresh() {
+window.timeoutRefresh = function() {
   setTimeout("window.location.reload()",300000);
   return;
 }
